@@ -1,0 +1,57 @@
+.talktip {
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    display: block;
+}
+
+#talk {
+    width: 100px;
+    height: 85px;
+    background: #282725;
+    margin:0 auto;
+    display: block;
+    position: relative;
+}
+
+#talk p {
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: Arial,san-serif;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+	line-height: 85px;
+	text-shadow: 0px 1px 0px black;
+	
+}
+
+.tipwrap {
+	height: 15px;
+	margin: -1 0 auto;
+	position: relative;
+}
+
+#tip {
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #282725;
+    border-top: 15px solid #282725;
+    margin: -1px auto 0;
+    position: relative;
+}
+
+.box img {
+	width: 100%;
+	max-width: 460px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.box {
+	padding-top: 10px;
+}
